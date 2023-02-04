@@ -8,7 +8,8 @@
     "test": "jest --watchAll"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "setupFilesAfterEnv": ["./jest-setup-after-env.js"]
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
